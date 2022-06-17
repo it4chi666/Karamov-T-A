@@ -21,12 +21,12 @@ public class Room {
 
     }
 
-    public int getnamefaculty() {
-        return namefaculty;
+    public int getnam() {
+        return name;
     }
 
-    public void setnamefaculty(int namefaculty) {
-        this.namefaculty = namefaculty;
+    public void setname(int name) {
+        this.name = name;
     }
 
     public int getroom() {
@@ -59,7 +59,7 @@ public class Room {
         this.namedean=namedean;
     }
     public String tostring(){
-        return "Идентификатор " + namefaculty +
+        return "Идентификатор " + name +
                 "\n Код номера- " + room +
                 "\n Количество человек - " + corps +
                 "\n Комфортность - " + telephone +
