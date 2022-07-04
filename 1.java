@@ -1,6 +1,6 @@
 // Дан массив b (n). Переписать в массив C (n) положительные элементы массива b (n) умноженные на 5
 import java.util.Random;
-public class Focus {
+public class first {
     public static void main(String[] args) {
 
         int m=10;
