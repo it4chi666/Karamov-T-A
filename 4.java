@@ -1,7 +1,7 @@
 // Определить матрицу (двумерный массив) и ее заполнить случайными значениями. Построить вектор B, который возвращает количество положительных элементов в каждом столбце матрицы
 import java.util.Random;
 import java.util.Vector;
-public class Virus {
+public class fourth {
     public static void main(String args[]) {
         int h = 7;
         int w = 7;
