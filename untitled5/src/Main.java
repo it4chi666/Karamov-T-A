@@ -20,7 +20,7 @@ public class Main {
             System.out.println("6. Выйти");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Считываем перевод строки после числа
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -29,7 +29,7 @@ public class Main {
 
                     System.out.println("Введите цену одежды: ");
                     double clothingPrice = scanner.nextDouble();
-                    scanner.nextLine(); // Считываем перевод строки после числа
+                    scanner.nextLine(); 
 
                     order.addProduct(clothingFactory.createProduct(clothingName, clothingPrice));
                     break;
@@ -39,7 +39,7 @@ public class Main {
 
                     System.out.println("Введите цену техники: ");
                     double electronicsPrice = scanner.nextDouble();
-                    scanner.nextLine(); // Считываем перевод строки после числа
+                    scanner.nextLine(); 
 
                     order.addProduct(electronicsFactory.createProduct(electronicsName, electronicsPrice));
                     break;
@@ -49,7 +49,7 @@ public class Main {
 
                     System.out.println("Введите цену обуви: ");
                     double footwearPrice = scanner.nextDouble();
-                    scanner.nextLine(); // Считываем перевод строки после числа
+                    scanner.nextLine(); 
 
                     order.addProduct(footwearFactory.createProduct(footwearName, footwearPrice));
                     break;
@@ -59,8 +59,8 @@ public class Main {
                 case 5:
                     System.out.println("Введите индекс продукта для удаления: ");
                     int index = scanner.nextInt();
-                    scanner.nextLine(); // Считываем перевод строки после числа
-                    order.removeProduct(index - 1); // Индексы начинаются с 1
+                    scanner.nextLine(); 
+                    order.removeProduct(index - 1); 
                     break;
                 case 6:
                     System.out.println("Total Price: " + order.getTotalPrice());
